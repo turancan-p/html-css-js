@@ -1,18 +1,61 @@
 body, html {
-    background-color: lightblue;
+    background-color:aliceblue;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav-icon-container{
+    display: block;
+    overflow: hidden;
+    float: left;
+    max-height: 46px;
+    background-color: #333;
+}
+.object-fit_fill { object-fit: fill }
+.object-fit_contain { object-fit: contain }
+.object-fit_cover { object-fit: cover }
+.object-fit_none { object-fit: none }
+.object-fit_scale-down { object-fit: scale-down }
+
+.nav-icon{
+    max-height: 43px;
+}
 .nav-items{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.nav-item a{
-    text-decoration: none;
-    color: white;
+.nav-item{
+    float: left;
+    border-right: 1px solid #bbb;
 }
+/* .nav-item:last-child{
+    border-right: none;
+} */
+.nav-item:first-child{
+    border-left: 1px solid #bbb;
+}
+
+
+.nav-item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #111;
+  }
 
 .nav-item a:visited{
     text-decoration: none;
