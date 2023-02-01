@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <h1>Please fill out the form completely.</h1>
+      <hr />
+    </header>
+    <main>
+      <h2>Account Details</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="username">Username</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mail">Email</label>
+          </td>
+          <td>
+            <input type="email" name="mail" id="mail" placeholder="E-Mail" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+          </td>
+        </tr>
+      </table>
+      <h2>Personal Detail</h2>
+      <table>
+        <tr>
+          <td>
+            <label for="name">Name</label>
+          </td>
+          <td>
+            <input type="text" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="surname">Surname</label>
+          </td>
+          <td>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="cities">City</label>
+          </td>
+          <td>
+            <select id="cities">
+              <option value="01">Adana</option>
+              <option value="33">Mersin</option>
+              <option value="34">Istanbul</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Save" />
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
