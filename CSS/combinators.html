@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .first-class {
+      background-color: aquamarine;
+    }
+    .first-class h1 {
+      color: red;
+    }
+    .first-class > h2 {
+      color: brown;
+    }
+    .second-class {
+      background-color: bisque;
+    }
+    .second-class h1 + h2 {
+      color: blue;
+    }
+    div ~ p {
+      color: red;
+    }
+  </style>
+  <body>
+    <!-- COMBINATORS
+    1 DESCENDANT SELECTOR ( )
+    2 CHILD SELECTOR (>)
+    3 ADJACENT SELECTOR (+)
+    4 GENERAL SIBLING SELECTOR (~) -->
+    
+    <div class="first-class">
+      <h1>Lorem, ipsum.</h1>
+      <h2>Lorem, ipsum dolor.</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sint rem
+        ipsum praesentium neque? Inventore in id odit soluta excepturi?
+      </p>
+    </div>
+
+    <div class="second-class">
+      <h1>Lorem, ipsum.</h1>
+      <h2>Lorem, ipsum dolor.</h2>
+    </div>
+
+    <p style="background-color: black">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo obcaecati
+      repudiandae delectus unde modi deleniti perspiciatis laborum voluptates
+      omnis amet.
+    </p>
+  </body>
+</html>
