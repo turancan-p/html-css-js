@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fff2f2;
+    }
+    .main-nav__item a {
+      color: #112d4e;
+      text-decoration: none;
+    }
+    .main-header {
+      background-color: #8ea7e9;
+      padding: 8px 16px;
+    }
+    .main-header__logo {
+      font-size: 25px;
+      padding-left: 15px;
+      color: #112d4e;
+      text-decoration: none;
+    }
+    .main-header__logo > img {
+      height: 40px;
+      vertical-align: middle;
+      padding: 10px 10px 10px 0px;
+    }
+    .main-nav {
+      display: inline-block;
+      width: calc(100% - 180px);
+      text-align: right;
+    }
+    .main-nav__items {
+      font-size: 20px;
+    }
+    .main-nav__item {
+      display: inline-block;
+      padding-right: 15px;
+    }
+    .main-nav__item:last-child {
+      padding-right: 0px;
+    }
+
+    .button-light-primary {
+      color: #112d4e;
+      background-color: #e5e0ff;
+      padding: 4px 16px;
+      border-radius: 8px;
+      border: 2px solid #112d4e;
+    }
+    .button-light-primary:hover {
+      color: #e5e0ff;
+      background-color: #112d4e;
+      border: 2px solid #e5e0ff;
+    }
+    #showcase {
+      background: url("home-bg.jpeg");
+      background-position: center;
+      height: 700px;
+      padding: 10px;
+    }
+    #content {
+      height: 100px;
+      background-color: #8ea7e9;
+    }
+  </style>
+  <body>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">
+        <img src="./practices/practice-3/logo.jpg" alt="" /> Logo
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="#" class="button-light-primary">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="button-light-primary">Blog</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="button-light-primary">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="showcase">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+          nisi aliquam eius, dicta iusto voluptatum consectetur molestias.
+          Laborum rem cum temporibus quam architecto dolores officia atque
+          consequatur voluptatibus impedit tempora sapiente et odit, accusantium
+          expedita adipisci dignissimos consectetur! Saepe odit tempora
+          aspernatur qui eligendi veniam odio laudantium ipsam deserunt dolor?
+        </p>
+      </section>
+      <section id="content">
+        <h1 style="margin: 0">Lorem, ipsum dolor.</h1>
+      </section>
+    </main>
+  </body>
+</html>
