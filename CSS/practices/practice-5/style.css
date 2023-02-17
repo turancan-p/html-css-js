@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+main {
+  margin: 0 auto 0 auto;
+}
+::selection {
+  background-color: #00adb5;
+}
+.main-header {
+  background-color: #222831;
+  padding: 8px 16px;
+}
+.main-header__logo {
+  font-size: 25px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+.main-header__logo > img {
+  height: 40px;
+  vertical-align: middle;
+  padding: 10px;
+}
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 140px);
+  text-align: right;
+}
+.main-nav__items {
+  font-size: 20px;
+}
+.main-nav__item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.main-nav__item:last-child {
+  margin-right: 0;
+}
+.main-nav__item a {
+  width: 60px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  color: #eeeeee;
+  text-decoration: none;
+}
+.main-nav__item:hover a {
+  border: 1px solid #00adb5;
+  background-color: #00adb5;
+  color: #393e46;
+}
+
+.main-header a:active {
+  background-color: #00adb5;
+  color: #393e46;
+}
+
+#showcase {
+  background: url("home-bg.jpeg");
+  background-position: center;
+  height: 700px;
+  padding: 10px;
+  color: #222831;
+}
+
+.row {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 30%;
+  padding: 16px;
+  margin: 8px;
+}
+.col-2 {
+  display: inline-block;
+  width: calc(50% - 42px);
+  height: 350px;
+  vertical-align: top;
+}
+.icon-box h3 {
+  font-size: 26px;
+}
+
+.button-light-primary {
+  color: #112d4e;
+  background-color: #e5e0ff;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid #112d4e;
+}
+.button-light-primary:hover {
+  color: #e5e0ff;
+  background-color: #112d4e;
+  border: 2px solid #e5e0ff;
+}
+
+a {
+  color: #112d4e;
+  text-decoration: none;
+}
+
+#features {
+  background-color: #112d4e;
+}
+
+.features__left {
+  background: url("features.jpeg");
+  background-size: cover;
+  background-position: top center;
+}
+.features__right {
+  padding-left: 40px;
+}
+.features__right h3 {
+  font-size: 30px;
+}
+.features__right a {
+  display: inline-blocké;
+  margin-top: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
