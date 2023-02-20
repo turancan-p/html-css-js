@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        color: #393e46;
+      }
+      header,
+      footer {
+        background-color: #71c9ce;
+        padding: 15px;
+      }
+      main {
+        background-color: #e3fdfd;
+      }
+      h1 {
+        margin: 0;
+      }
+      .menu {
+        width: 25%;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #a6e3e9;
+      }
+      .menu li:hover {
+        cursor: pointer;
+        background-color: #cbf1f5;
+      }
+      .content {
+        width: 75%;
+      }
+      .p-without-l-15 {
+        padding: 15px 15px 15px 0;
+      }
+      .float-left {
+        float: left;
+      }
+      .float-right {
+        float: right;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+    <main class="clearfix">
+      <div class="menu float-left p-without-l-15">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </div>
+      <div class="content float-left p-without-l-15">
+        <h1>Web Development</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nam,
+          qui, sunt consequuntur quidem harum dolorem iure pariatur perferendis
+          corporis reprehenderit autem repellat. Vel sunt esse quibusdam
+          consectetur eius facere!
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nam,
+          qui, sunt consequuntur quidem harum dolorem iure pariatur perferendis
+          corporis reprehenderit autem repellat. Vel sunt esse quibusdam
+          consectetur eius facere!
+        </p>
+      </div>
+    </main>
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>

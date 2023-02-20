@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        /* float: right; */
+      }
+      .box {
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-color: brown;
+        float: right;
+      }
+      #box1 {
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" class="clearfix">
+      <div class="box">box 1</div>
+      <div class="box">box 2</div>
+      <div class="box">box 3</div>
+      <!-- <div style="clear: both"></div> -->
+    </div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt saepe
+      dolor enim nulla laudantium tenetur debitis impedit, quis suscipit hic
+      pariatur tempore, unde eius, vero consectetur maxime alias rerum eveniet.
+    </p>
+  </body>
+</html>
