@@ -159,12 +159,17 @@ a {
   height: 280px;
   padding: 20px 0 0 0;
   border-radius: 5px;
+  box-shadow: 0px 7px 29px 0px rgba(136, 136, 138, 0.2);
+  transition: box-shadow 0.5s;
 }
 .inner-blog h3 {
   font-size: 24px;
 }
 .inner-blog ul > li {
   margin: 6px 0;
+}
+.inner-blog:hover {
+  box-shadow: 0px 7px 29px 0px rgba(136, 136, 138, 0.5);
 }
 .clearfix::after {
   content: "";
