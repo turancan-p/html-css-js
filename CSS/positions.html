@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* positions: static, relative, fixed, absolute, sticky */
+      /* elements default positions are static */
+      .box1 {
+        background: red;
+      }
+      .box2 {
+        background: green;
+        position: relative;
+        top: 5px;
+        left: 50px;
+      }
+      .box3 {
+        background: blue;
+        position: absolute;
+      }
+      .box4 {
+        background: brown;
+        height: 100px;
+        position: relative;
+      }
+      .inside-box4 {
+        background: greenyellow;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">position default: static</div>
+    <div class="box2">position relative - top 5px left 50px</div>
+    <div class="box3">box3 - position absolute</div>
+    <br />
+    <div class="box4">
+      box4 position relative
+      <div class="inside-box4">
+        inside box4 position absolute - top 50px left 50px
+      </div>
+    </div>
+  </body>
+</html>
